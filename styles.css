@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  h1, h2 {
+    color: #4CAF50;
+  }
+  
+  a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+
+  .imgg{
+    height: 200px;
+  background-color: #000;
+  /**background-image: url(../images/img5.jpg);**/
+  background-size: cover;
+  background-position: center;
+  width: 300px;
+  margin-left: 801px;
+  }
+
+
+  /**********next.html***********/
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(172,204,227);*
+  }
+  
+  .gif-container {
+    animation: moveGIF 5s linear infinite; /* Adjust the animation duration as needed */
+   /** background-image: url(forest.jpg);**/
+   margin-right: 397px;
+
+}
+
+
+
+  
+  @keyframes moveGIF {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(100px); /* Adjust the distance you want the GIF to move */
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  audio{
+    margin-left: -517px;
+    align-items: center;
+    margin-bottom: -66px;
+    margin-right: -162px;
+  }
+  
+  
